@@ -1,0 +1,52 @@
+*{
+    margin:0px auto ;
+    padding: 0%;
+    font-family: Helvetica;
+    text-decoration: none;
+    
+}
+body {
+  background-image: url(gmbr.jpg);
+  background-size: cover;
+  
+  
+}
+.lingkar{
+  background:rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  padding: 3% 0;
+}
+input[type=text]{
+  width: 50%;
+  height: 35px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  margin: 2px ;
+  
+}
+
+.goo{
+  text-align: center;
+}
+
+.inputt{
+  width: 50%;
+  height: 35px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  margin: 2px ;
+}
+
+.btnakhir{
+  width: 20%;
+  height: 25px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  margin: 2px ;
+}

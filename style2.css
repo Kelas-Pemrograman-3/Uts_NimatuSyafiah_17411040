@@ -1,0 +1,130 @@
+*{
+    margin:0px auto ;
+    padding: 0%;
+    font-family: Helvetica;
+    text-decoration: none;
+    
+}
+body {
+  background-image: url(gmbr.jpg);
+  background-size: cover;
+  
+  
+}
+
+img{
+  width: 30%;
+  border-radius: 15px;
+  margin-bottom: 4%;
+}
+
+.input{
+  margin-top: 3%;
+  background:rgba(245, 240, 240,0.7);
+  padding: 4% 0;
+  border-radius: 20px;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+h3{
+  margin: 3% 0;
+}
+
+input[type=text]{
+ 
+  width: 60%;
+  height: 35px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  margin: 2px ;
+}
+
+input[type=submit]{
+ 
+    width: 15%;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    margin: 2px ;
+  }
+
+  input[type=button]{
+    width: 15%;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    margin: 2px ;
+  }
+
+select{
+ 
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    margin: 2px ;
+  }
+
+  nav {
+    width: 100%;
+    margin : auto;
+    text-align: center;
+}
+nav ul{
+    background:	rgb(148, 155, 155);
+    padding: 0px 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li{
+    float: left;
+}
+nav ul li :hover a{
+    background: #008B8B;
+}
+nav ul li a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav ul ul{
+    background:	rgb(19, 70, 70);
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li{
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a{
+    padding: 15px 40px;
+    color:	rgb(197, 247, 112);
+}
+
+nav ul ul li a:hover{
+    background-color:	rgb(191, 240, 108);
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+    width: 150px;
+}
